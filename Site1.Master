@@ -1,0 +1,119 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="assignment.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    
+    <style type="text/css">
+        .auto-style1 {
+            width: 205px;
+        }
+        .auto-style2 {
+            height: 410px;
+            width: 1246px;
+        }
+        .auto-style3 {
+            width: 205px;
+            color: #FFFFFF;
+            height: 229px;
+        }
+        .auto-style4 {
+            font-size: xx-large;
+        }
+        .auto-style5 {
+            font-size: x-small;
+        }
+        .auto-style6 {
+            font-size: small;
+        }
+        .auto-style7 {
+            height: 0px;
+        }
+        .auto-style8 {
+            height: 229px;
+        }
+        .auto-style9 {
+            width: 205px;
+            height: 3px;
+        }
+        .auto-style10 {
+            height: 3px;
+        }
+        .auto-style12 {
+            height: 3px;
+            width: 458px;
+        }
+        .auto-style13 {
+            width: 458px;
+        }
+        .auto-style14 {
+            text-decoration: underline;
+            color: #0000FF;
+        }
+        .auto-style15 {
+            color: #009933;
+        }
+        .auto-style16 {
+            color: #0066FF;
+        }
+        .auto-style17 {
+            color: #999966;
+        }
+        .auto-style18 {
+            color: #666633;
+        }
+        </style>
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <table class="auto-style2">
+                <tr>
+                    <td colspan="3">
+                        <asp:DropDownList ID="DropDownList1" runat="server">
+                            <asp:ListItem> Microsoft Communites</asp:ListItem>
+                        </asp:DropDownList>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="auto-style17">&nbsp;</span><span class="auto-style18"> Silverlight:</span><span class="auto-style16"> Tip of the Day: How the Silverlight Videos Are Made</span></td>
+                </tr>
+                <tr>
+                    <td class="auto-style3" style="background-color:blue;"><strong><span class="auto-style6">Microsoft*</span><span class="auto-style5"><br />
+&nbsp;</span><span class="auto-style4">Asp.net</span></strong></td>
+                    <td  colspan="2" class ="auto-style8" style="background-color:aliceblue">
+                        
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                            <p class="auto-style7">
+                            </p>
+                        </asp:ContentPlaceHolder>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+               <tr>
+                    <td class="auto-style9" style="background-color:powderblue">
+                           <h3><strong>Welcome</strong></h3>
+                    </td>
+                    <td class="auto-style12" style="background-color:powderblue">
+                        <h3><strong>In the News</strong></h3>
+                    </td>
+                    <td class="auto-style10" style="background-color:powderblue">
+                        <h3><strong>Featured ASP.NET Web Hosting</strong></h3>
+                    </td>
+                   
+                </tr>
+                
+                <tr>
+                    <td class="auto-style1" style="background-color:aliceblue"><span class="auto-style15"><strong>1.Why </strong>ASP.NET?</span><br class="auto-style15" />
+                        Asp.NET is a free technology that allows anyone to create a modern website.</td>
+                    <td class="auto-style13" style="background-color:aliceblue"><span class="auto-style14">Silverlight 2 Beta 1 Now Available!</span><br />
+                        There are two news ASP.NET server controls that make it easy for developers to incorporate Silverlight content into ASP.NET web applications.</td>
+                    <td style="background-color:aliceblue">Voted &quot;Best ASP.NET web Host&quot; by asp.netPRO Magazine &amp; Visual Studio Magazine and Trusted.</td>
+                   
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>
